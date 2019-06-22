@@ -36,7 +36,7 @@ class Exchange_Rate():
     """
     Increase and decrease in currency exchange
     """
-    def __init__(self,usd_value=0.050,eur_value=0.030,gbp_value=0.025,try_value):
+    def __init__(self,usd_value=0.050,eur_value=0.030,gbp_value=0.025,try_value=0.01):
         self.usd_value = usd_value
         self.eur_value = eur_value
         self.gbp_value = gbp_value
